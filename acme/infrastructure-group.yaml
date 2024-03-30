@@ -19,3 +19,14 @@ spec:
     email: manjunathmkotabal99@gmail.com
     picture: https://avatars.githubusercontent.com/u/94886901?v=4
   memberOf: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Manjunath-Kotabal
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: manjunath.kotabal@aidash.com
+    picture: https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:67bc8877-23b7-4343-9864-bc7393bff0fa/17bff0ce-39c5-446d-81db-23c467583535/128
+  memberOf: [infrastructure]
