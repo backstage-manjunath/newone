@@ -7,8 +7,6 @@ metadata:
     backstage.io/kubernetes-id: backstage 
   tags:
     - backstage 
-    - Javascript 
-    - NodeJS
   links:
     - url: https://backstage.aidash.org
       title: Admin Dashboard
