@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/clean-architecture-app/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/create-react-app/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/docs-template-cookiecutter/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/docs-template/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/pull-request/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/rails-demo/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/react-ssr-template/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/springboot-grpc-template/template.yaml
