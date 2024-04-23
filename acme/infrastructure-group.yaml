@@ -41,3 +41,14 @@ spec:
     email: rimjhim.singh@aidash.com
     picture: https://jenkins-new.aidash.org/static/1c62825b/images/svgs/logo.svg
   memberOf: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jeeldasvani-aidash
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: jeel.dasvani@aidash.com
+    picture: https://jenkins-new.aidash.org/static/1c62825b/images/svgs/logo.svg
+  memberOf: [infrastructure]
